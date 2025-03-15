@@ -23,9 +23,7 @@ public class ShiftCipher {
 		
 		System.out.println();
 		
-//		for(int i=0;i<p.length();i++) {
-//			arr[i]=arr[i]-97;
-//		}
+
 		for(int i=0;i<arr.length;i++) {
 			arr[i]=(arr[i]-key+26)%26;
 		}
